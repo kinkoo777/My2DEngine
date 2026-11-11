@@ -1,0 +1,4 @@
+/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles/glad.dir
+/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles/My2DEngine.dir
+/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles/edit_cache.dir
+/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles/rebuild_cache.dir
