@@ -777,5 +777,4 @@ CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexArray.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wbuffer_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/renderer/src/../././VertexBufferElement.h \
-  /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/renderer/src/../VertexBufferLayout.h
+  /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/renderer/src/../././VertexBufferElement.h

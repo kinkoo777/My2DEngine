@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/vladimirgottlieb/Projects/My2DEngine/build/cmake_install.cmake"
+		"/Users/vladimirgottlieb/Projects/My2DEngine/build/cmake_install.cmake",
+		"/Users/vladimirgottlieb/Projects/My2DEngine/build/engine/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

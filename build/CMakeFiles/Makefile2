@@ -64,22 +64,48 @@ CMAKE_BINARY_DIR = /Users/vladimirgottlieb/Projects/My2DEngine/build
 
 # The main recursive "all" target.
 all: CMakeFiles/glad.dir/all
-all: CMakeFiles/My2DEngine.dir/all
+all: CMakeFiles/stb_image.dir/all
+all: CMakeFiles/Snake.dir/all
+all: engine/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/glad.dir/codegen
-codegen: CMakeFiles/My2DEngine.dir/codegen
+codegen: CMakeFiles/stb_image.dir/codegen
+codegen: CMakeFiles/Snake.dir/codegen
+codegen: engine/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: engine/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/glad.dir/clean
-clean: CMakeFiles/My2DEngine.dir/clean
+clean: CMakeFiles/stb_image.dir/clean
+clean: CMakeFiles/Snake.dir/clean
+clean: CMakeFiles/run_Snake.dir/clean
+clean: engine/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory engine
+
+# Recursive "all" directory target.
+engine/all: engine/CMakeFiles/engine.dir/all
+.PHONY : engine/all
+
+# Recursive "codegen" directory target.
+engine/codegen: engine/CMakeFiles/engine.dir/codegen
+.PHONY : engine/codegen
+
+# Recursive "preinstall" directory target.
+engine/preinstall:
+.PHONY : engine/preinstall
+
+# Recursive "clean" directory target.
+engine/clean: engine/CMakeFiles/engine.dir/clean
+.PHONY : engine/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/glad.dir
@@ -88,7 +114,7 @@ clean: CMakeFiles/My2DEngine.dir/clean
 CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=13,14 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=26,27 "Built target glad"
 .PHONY : CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -105,7 +131,7 @@ glad: CMakeFiles/glad.dir/rule
 # codegen rule for target.
 CMakeFiles/glad.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=13,14 "Finished codegen for target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=26,27 "Finished codegen for target glad"
 .PHONY : CMakeFiles/glad.dir/codegen
 
 # clean rule for target.
@@ -114,36 +140,135 @@ CMakeFiles/glad.dir/clean:
 .PHONY : CMakeFiles/glad.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/My2DEngine.dir
+# Target rules for target CMakeFiles/stb_image.dir
 
 # All Build rule for target.
-CMakeFiles/My2DEngine.dir/all: CMakeFiles/glad.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target My2DEngine"
-.PHONY : CMakeFiles/My2DEngine.dir/all
+CMakeFiles/stb_image.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=28,29 "Built target stb_image"
+.PHONY : CMakeFiles/stb_image.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/My2DEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 14
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/My2DEngine.dir/all
+CMakeFiles/stb_image.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stb_image.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 0
-.PHONY : CMakeFiles/My2DEngine.dir/rule
+.PHONY : CMakeFiles/stb_image.dir/rule
 
 # Convenience name for target.
-My2DEngine: CMakeFiles/My2DEngine.dir/rule
-.PHONY : My2DEngine
+stb_image: CMakeFiles/stb_image.dir/rule
+.PHONY : stb_image
 
 # codegen rule for target.
-CMakeFiles/My2DEngine.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target My2DEngine"
-.PHONY : CMakeFiles/My2DEngine.dir/codegen
+CMakeFiles/stb_image.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=28,29 "Finished codegen for target stb_image"
+.PHONY : CMakeFiles/stb_image.dir/codegen
 
 # clean rule for target.
-CMakeFiles/My2DEngine.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/clean
-.PHONY : CMakeFiles/My2DEngine.dir/clean
+CMakeFiles/stb_image.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/clean
+.PHONY : CMakeFiles/stb_image.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Snake.dir
+
+# All Build rule for target.
+CMakeFiles/Snake.dir/all: CMakeFiles/glad.dir/all
+CMakeFiles/Snake.dir/all: CMakeFiles/stb_image.dir/all
+CMakeFiles/Snake.dir/all: engine/CMakeFiles/engine.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Snake"
+.PHONY : CMakeFiles/Snake.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Snake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 29
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Snake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 0
+.PHONY : CMakeFiles/Snake.dir/rule
+
+# Convenience name for target.
+Snake: CMakeFiles/Snake.dir/rule
+.PHONY : Snake
+
+# codegen rule for target.
+CMakeFiles/Snake.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target Snake"
+.PHONY : CMakeFiles/Snake.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Snake.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/clean
+.PHONY : CMakeFiles/Snake.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/run_Snake.dir
+
+# All Build rule for target.
+CMakeFiles/run_Snake.dir/all: CMakeFiles/Snake.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_Snake.dir/build.make CMakeFiles/run_Snake.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_Snake.dir/build.make CMakeFiles/run_Snake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num= "Built target run_Snake"
+.PHONY : CMakeFiles/run_Snake.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run_Snake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 29
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_Snake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 0
+.PHONY : CMakeFiles/run_Snake.dir/rule
+
+# Convenience name for target.
+run_Snake: CMakeFiles/run_Snake.dir/rule
+.PHONY : run_Snake
+
+# codegen rule for target.
+CMakeFiles/run_Snake.dir/codegen: CMakeFiles/Snake.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_Snake.dir/build.make CMakeFiles/run_Snake.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num= "Finished codegen for target run_Snake"
+.PHONY : CMakeFiles/run_Snake.dir/codegen
+
+# clean rule for target.
+CMakeFiles/run_Snake.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_Snake.dir/build.make CMakeFiles/run_Snake.dir/clean
+.PHONY : CMakeFiles/run_Snake.dir/clean
+
+#=============================================================================
+# Target rules for target engine/CMakeFiles/engine.dir
+
+# All Build rule for target.
+engine/CMakeFiles/engine.dir/all: CMakeFiles/glad.dir/all
+engine/CMakeFiles/engine.dir/all: CMakeFiles/stb_image.dir/all
+	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/engine.dir/build.make engine/CMakeFiles/engine.dir/depend
+	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/engine.dir/build.make engine/CMakeFiles/engine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 "Built target engine"
+.PHONY : engine/CMakeFiles/engine.dir/all
+
+# Build rule for subdir invocation for target.
+engine/CMakeFiles/engine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/CMakeFiles/engine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles 0
+.PHONY : engine/CMakeFiles/engine.dir/rule
+
+# Convenience name for target.
+engine: engine/CMakeFiles/engine.dir/rule
+.PHONY : engine
+
+# codegen rule for target.
+engine/CMakeFiles/engine.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/engine.dir/build.make engine/CMakeFiles/engine.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 "Finished codegen for target engine"
+.PHONY : engine/CMakeFiles/engine.dir/codegen
+
+# clean rule for target.
+engine/CMakeFiles/engine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/engine.dir/build.make engine/CMakeFiles/engine.dir/clean
+.PHONY : engine/CMakeFiles/engine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
@@ -152,6 +277,7 @@ CMakeFiles/My2DEngine.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

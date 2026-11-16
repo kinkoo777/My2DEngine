@@ -11,6 +11,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.4.5/CMakeCCompiler.cmake"
   "CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.5/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
+  "/Users/vladimirgottlieb/Projects/My2DEngine/engine/CMakeLists.txt"
   "/opt/homebrew/lib/cmake/glfw3/glfw3Config.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "/opt/homebrew/lib/cmake/glfw3/glfw3Targets-release.cmake"
@@ -69,10 +72,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "engine/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/glad.dir/DependInfo.cmake"
-  "CMakeFiles/My2DEngine.dir/DependInfo.cmake"
+  "CMakeFiles/stb_image.dir/DependInfo.cmake"
+  "CMakeFiles/Snake.dir/DependInfo.cmake"
+  "CMakeFiles/run_Snake.dir/DependInfo.cmake"
+  "engine/CMakeFiles/engine.dir/DependInfo.cmake"
   )

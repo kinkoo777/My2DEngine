@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -130,281 +131,152 @@ glad/fast:
 .PHONY : glad/fast
 
 #=============================================================================
-# Target rules for targets named My2DEngine
+# Target rules for targets named stb_image
 
 # Build rule for target.
-My2DEngine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 My2DEngine
-.PHONY : My2DEngine
+stb_image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stb_image
+.PHONY : stb_image
 
 # fast build rule for target.
-My2DEngine/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/build
-.PHONY : My2DEngine/fast
+stb_image/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/build
+.PHONY : stb_image/fast
 
-framework/core/src/GameObject.o: framework/core/src/GameObject.cpp.o
-.PHONY : framework/core/src/GameObject.o
+#=============================================================================
+# Target rules for targets named Snake
 
-# target to build an object file
-framework/core/src/GameObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.o
-.PHONY : framework/core/src/GameObject.cpp.o
+# Build rule for target.
+Snake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Snake
+.PHONY : Snake
 
-framework/core/src/GameObject.i: framework/core/src/GameObject.cpp.i
-.PHONY : framework/core/src/GameObject.i
+# fast build rule for target.
+Snake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/build
+.PHONY : Snake/fast
 
-# target to preprocess a source file
-framework/core/src/GameObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.i
-.PHONY : framework/core/src/GameObject.cpp.i
+#=============================================================================
+# Target rules for targets named run_Snake
 
-framework/core/src/GameObject.s: framework/core/src/GameObject.cpp.s
-.PHONY : framework/core/src/GameObject.s
+# Build rule for target.
+run_Snake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_Snake
+.PHONY : run_Snake
 
-# target to generate assembly for a file
-framework/core/src/GameObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.s
-.PHONY : framework/core/src/GameObject.cpp.s
+# fast build rule for target.
+run_Snake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_Snake.dir/build.make CMakeFiles/run_Snake.dir/build
+.PHONY : run_Snake/fast
 
-framework/shader/renderer/src/IndexBuffer.o: framework/shader/renderer/src/IndexBuffer.cpp.o
-.PHONY : framework/shader/renderer/src/IndexBuffer.o
+#=============================================================================
+# Target rules for targets named engine
 
-# target to build an object file
-framework/shader/renderer/src/IndexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/IndexBuffer.cpp.o
-.PHONY : framework/shader/renderer/src/IndexBuffer.cpp.o
+# Build rule for target.
+engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine
+.PHONY : engine
 
-framework/shader/renderer/src/IndexBuffer.i: framework/shader/renderer/src/IndexBuffer.cpp.i
-.PHONY : framework/shader/renderer/src/IndexBuffer.i
+# fast build rule for target.
+engine/fast:
+	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/engine.dir/build.make engine/CMakeFiles/engine.dir/build
+.PHONY : engine/fast
 
-# target to preprocess a source file
-framework/shader/renderer/src/IndexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/IndexBuffer.cpp.i
-.PHONY : framework/shader/renderer/src/IndexBuffer.cpp.i
-
-framework/shader/renderer/src/IndexBuffer.s: framework/shader/renderer/src/IndexBuffer.cpp.s
-.PHONY : framework/shader/renderer/src/IndexBuffer.s
-
-# target to generate assembly for a file
-framework/shader/renderer/src/IndexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/IndexBuffer.cpp.s
-.PHONY : framework/shader/renderer/src/IndexBuffer.cpp.s
-
-framework/shader/renderer/src/Renderer.o: framework/shader/renderer/src/Renderer.cpp.o
-.PHONY : framework/shader/renderer/src/Renderer.o
+games/Snake/Application.o: games/Snake/Application.cpp.o
+.PHONY : games/Snake/Application.o
 
 # target to build an object file
-framework/shader/renderer/src/Renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/Renderer.cpp.o
-.PHONY : framework/shader/renderer/src/Renderer.cpp.o
+games/Snake/Application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/Application.cpp.o
+.PHONY : games/Snake/Application.cpp.o
 
-framework/shader/renderer/src/Renderer.i: framework/shader/renderer/src/Renderer.cpp.i
-.PHONY : framework/shader/renderer/src/Renderer.i
+games/Snake/Application.i: games/Snake/Application.cpp.i
+.PHONY : games/Snake/Application.i
 
 # target to preprocess a source file
-framework/shader/renderer/src/Renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/Renderer.cpp.i
-.PHONY : framework/shader/renderer/src/Renderer.cpp.i
+games/Snake/Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/Application.cpp.i
+.PHONY : games/Snake/Application.cpp.i
 
-framework/shader/renderer/src/Renderer.s: framework/shader/renderer/src/Renderer.cpp.s
-.PHONY : framework/shader/renderer/src/Renderer.s
+games/Snake/Application.s: games/Snake/Application.cpp.s
+.PHONY : games/Snake/Application.s
 
 # target to generate assembly for a file
-framework/shader/renderer/src/Renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/Renderer.cpp.s
-.PHONY : framework/shader/renderer/src/Renderer.cpp.s
+games/Snake/Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/Application.cpp.s
+.PHONY : games/Snake/Application.cpp.s
 
-framework/shader/renderer/src/VertexArray.o: framework/shader/renderer/src/VertexArray.cpp.o
-.PHONY : framework/shader/renderer/src/VertexArray.o
+games/Snake/GridMap.o: games/Snake/GridMap.cpp.o
+.PHONY : games/Snake/GridMap.o
 
 # target to build an object file
-framework/shader/renderer/src/VertexArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexArray.cpp.o
-.PHONY : framework/shader/renderer/src/VertexArray.cpp.o
+games/Snake/GridMap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/GridMap.cpp.o
+.PHONY : games/Snake/GridMap.cpp.o
 
-framework/shader/renderer/src/VertexArray.i: framework/shader/renderer/src/VertexArray.cpp.i
-.PHONY : framework/shader/renderer/src/VertexArray.i
+games/Snake/GridMap.i: games/Snake/GridMap.cpp.i
+.PHONY : games/Snake/GridMap.i
 
 # target to preprocess a source file
-framework/shader/renderer/src/VertexArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexArray.cpp.i
-.PHONY : framework/shader/renderer/src/VertexArray.cpp.i
+games/Snake/GridMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/GridMap.cpp.i
+.PHONY : games/Snake/GridMap.cpp.i
 
-framework/shader/renderer/src/VertexArray.s: framework/shader/renderer/src/VertexArray.cpp.s
-.PHONY : framework/shader/renderer/src/VertexArray.s
+games/Snake/GridMap.s: games/Snake/GridMap.cpp.s
+.PHONY : games/Snake/GridMap.s
 
 # target to generate assembly for a file
-framework/shader/renderer/src/VertexArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexArray.cpp.s
-.PHONY : framework/shader/renderer/src/VertexArray.cpp.s
+games/Snake/GridMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/GridMap.cpp.s
+.PHONY : games/Snake/GridMap.cpp.s
 
-framework/shader/renderer/src/VertexBuffer.o: framework/shader/renderer/src/VertexBuffer.cpp.o
-.PHONY : framework/shader/renderer/src/VertexBuffer.o
+games/Snake/GridRenderer.o: games/Snake/GridRenderer.cpp.o
+.PHONY : games/Snake/GridRenderer.o
 
 # target to build an object file
-framework/shader/renderer/src/VertexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBuffer.cpp.o
-.PHONY : framework/shader/renderer/src/VertexBuffer.cpp.o
+games/Snake/GridRenderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/GridRenderer.cpp.o
+.PHONY : games/Snake/GridRenderer.cpp.o
 
-framework/shader/renderer/src/VertexBuffer.i: framework/shader/renderer/src/VertexBuffer.cpp.i
-.PHONY : framework/shader/renderer/src/VertexBuffer.i
+games/Snake/GridRenderer.i: games/Snake/GridRenderer.cpp.i
+.PHONY : games/Snake/GridRenderer.i
 
 # target to preprocess a source file
-framework/shader/renderer/src/VertexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBuffer.cpp.i
-.PHONY : framework/shader/renderer/src/VertexBuffer.cpp.i
+games/Snake/GridRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/GridRenderer.cpp.i
+.PHONY : games/Snake/GridRenderer.cpp.i
 
-framework/shader/renderer/src/VertexBuffer.s: framework/shader/renderer/src/VertexBuffer.cpp.s
-.PHONY : framework/shader/renderer/src/VertexBuffer.s
+games/Snake/GridRenderer.s: games/Snake/GridRenderer.cpp.s
+.PHONY : games/Snake/GridRenderer.s
 
 # target to generate assembly for a file
-framework/shader/renderer/src/VertexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBuffer.cpp.s
-.PHONY : framework/shader/renderer/src/VertexBuffer.cpp.s
+games/Snake/GridRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/GridRenderer.cpp.s
+.PHONY : games/Snake/GridRenderer.cpp.s
 
-framework/shader/renderer/src/VertexBufferElement.o: framework/shader/renderer/src/VertexBufferElement.cpp.o
-.PHONY : framework/shader/renderer/src/VertexBufferElement.o
+games/Snake/main.o: games/Snake/main.cpp.o
+.PHONY : games/Snake/main.o
 
 # target to build an object file
-framework/shader/renderer/src/VertexBufferElement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBufferElement.cpp.o
-.PHONY : framework/shader/renderer/src/VertexBufferElement.cpp.o
+games/Snake/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/main.cpp.o
+.PHONY : games/Snake/main.cpp.o
 
-framework/shader/renderer/src/VertexBufferElement.i: framework/shader/renderer/src/VertexBufferElement.cpp.i
-.PHONY : framework/shader/renderer/src/VertexBufferElement.i
-
-# target to preprocess a source file
-framework/shader/renderer/src/VertexBufferElement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBufferElement.cpp.i
-.PHONY : framework/shader/renderer/src/VertexBufferElement.cpp.i
-
-framework/shader/renderer/src/VertexBufferElement.s: framework/shader/renderer/src/VertexBufferElement.cpp.s
-.PHONY : framework/shader/renderer/src/VertexBufferElement.s
-
-# target to generate assembly for a file
-framework/shader/renderer/src/VertexBufferElement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBufferElement.cpp.s
-.PHONY : framework/shader/renderer/src/VertexBufferElement.cpp.s
-
-framework/shader/renderer/src/VertexBufferLayout.o: framework/shader/renderer/src/VertexBufferLayout.cpp.o
-.PHONY : framework/shader/renderer/src/VertexBufferLayout.o
-
-# target to build an object file
-framework/shader/renderer/src/VertexBufferLayout.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBufferLayout.cpp.o
-.PHONY : framework/shader/renderer/src/VertexBufferLayout.cpp.o
-
-framework/shader/renderer/src/VertexBufferLayout.i: framework/shader/renderer/src/VertexBufferLayout.cpp.i
-.PHONY : framework/shader/renderer/src/VertexBufferLayout.i
+games/Snake/main.i: games/Snake/main.cpp.i
+.PHONY : games/Snake/main.i
 
 # target to preprocess a source file
-framework/shader/renderer/src/VertexBufferLayout.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBufferLayout.cpp.i
-.PHONY : framework/shader/renderer/src/VertexBufferLayout.cpp.i
+games/Snake/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/main.cpp.i
+.PHONY : games/Snake/main.cpp.i
 
-framework/shader/renderer/src/VertexBufferLayout.s: framework/shader/renderer/src/VertexBufferLayout.cpp.s
-.PHONY : framework/shader/renderer/src/VertexBufferLayout.s
-
-# target to generate assembly for a file
-framework/shader/renderer/src/VertexBufferLayout.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBufferLayout.cpp.s
-.PHONY : framework/shader/renderer/src/VertexBufferLayout.cpp.s
-
-framework/shader/src/Shader.o: framework/shader/src/Shader.cpp.o
-.PHONY : framework/shader/src/Shader.o
-
-# target to build an object file
-framework/shader/src/Shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/src/Shader.cpp.o
-.PHONY : framework/shader/src/Shader.cpp.o
-
-framework/shader/src/Shader.i: framework/shader/src/Shader.cpp.i
-.PHONY : framework/shader/src/Shader.i
-
-# target to preprocess a source file
-framework/shader/src/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/src/Shader.cpp.i
-.PHONY : framework/shader/src/Shader.cpp.i
-
-framework/shader/src/Shader.s: framework/shader/src/Shader.cpp.s
-.PHONY : framework/shader/src/Shader.s
+games/Snake/main.s: games/Snake/main.cpp.s
+.PHONY : games/Snake/main.s
 
 # target to generate assembly for a file
-framework/shader/src/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/shader/src/Shader.cpp.s
-.PHONY : framework/shader/src/Shader.cpp.s
-
-framework/time/src/Time.o: framework/time/src/Time.cpp.o
-.PHONY : framework/time/src/Time.o
-
-# target to build an object file
-framework/time/src/Time.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/time/src/Time.cpp.o
-.PHONY : framework/time/src/Time.cpp.o
-
-framework/time/src/Time.i: framework/time/src/Time.cpp.i
-.PHONY : framework/time/src/Time.i
-
-# target to preprocess a source file
-framework/time/src/Time.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/time/src/Time.cpp.i
-.PHONY : framework/time/src/Time.cpp.i
-
-framework/time/src/Time.s: framework/time/src/Time.cpp.s
-.PHONY : framework/time/src/Time.s
-
-# target to generate assembly for a file
-framework/time/src/Time.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/time/src/Time.cpp.s
-.PHONY : framework/time/src/Time.cpp.s
-
-framework/transform/src/Transform.o: framework/transform/src/Transform.cpp.o
-.PHONY : framework/transform/src/Transform.o
-
-# target to build an object file
-framework/transform/src/Transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/transform/src/Transform.cpp.o
-.PHONY : framework/transform/src/Transform.cpp.o
-
-framework/transform/src/Transform.i: framework/transform/src/Transform.cpp.i
-.PHONY : framework/transform/src/Transform.i
-
-# target to preprocess a source file
-framework/transform/src/Transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/transform/src/Transform.cpp.i
-.PHONY : framework/transform/src/Transform.cpp.i
-
-framework/transform/src/Transform.s: framework/transform/src/Transform.cpp.s
-.PHONY : framework/transform/src/Transform.s
-
-# target to generate assembly for a file
-framework/transform/src/Transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/framework/transform/src/Transform.cpp.s
-.PHONY : framework/transform/src/Transform.cpp.s
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My2DEngine.dir/build.make CMakeFiles/My2DEngine.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+games/Snake/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/games/Snake/main.cpp.s
+.PHONY : games/Snake/main.cpp.s
 
 vendor/glad/src/glad.o: vendor/glad/src/glad.c.o
 .PHONY : vendor/glad/src/glad.o
@@ -430,6 +302,30 @@ vendor/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/vendor/glad/src/glad.c.s
 .PHONY : vendor/glad/src/glad.c.s
 
+vendor/stb_image/stb_image.o: vendor/stb_image/stb_image.cpp.o
+.PHONY : vendor/stb_image/stb_image.o
+
+# target to build an object file
+vendor/stb_image/stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/vendor/stb_image/stb_image.cpp.o
+.PHONY : vendor/stb_image/stb_image.cpp.o
+
+vendor/stb_image/stb_image.i: vendor/stb_image/stb_image.cpp.i
+.PHONY : vendor/stb_image/stb_image.i
+
+# target to preprocess a source file
+vendor/stb_image/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/vendor/stb_image/stb_image.cpp.i
+.PHONY : vendor/stb_image/stb_image.cpp.i
+
+vendor/stb_image/stb_image.s: vendor/stb_image/stb_image.cpp.s
+.PHONY : vendor/stb_image/stb_image.s
+
+# target to generate assembly for a file
+vendor/stb_image/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stb_image.dir/build.make CMakeFiles/stb_image.dir/vendor/stb_image/stb_image.cpp.s
+.PHONY : vendor/stb_image/stb_image.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -438,44 +334,29 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... My2DEngine"
+	@echo "... run_Snake"
+	@echo "... Snake"
+	@echo "... engine"
 	@echo "... glad"
-	@echo "... framework/core/src/GameObject.o"
-	@echo "... framework/core/src/GameObject.i"
-	@echo "... framework/core/src/GameObject.s"
-	@echo "... framework/shader/renderer/src/IndexBuffer.o"
-	@echo "... framework/shader/renderer/src/IndexBuffer.i"
-	@echo "... framework/shader/renderer/src/IndexBuffer.s"
-	@echo "... framework/shader/renderer/src/Renderer.o"
-	@echo "... framework/shader/renderer/src/Renderer.i"
-	@echo "... framework/shader/renderer/src/Renderer.s"
-	@echo "... framework/shader/renderer/src/VertexArray.o"
-	@echo "... framework/shader/renderer/src/VertexArray.i"
-	@echo "... framework/shader/renderer/src/VertexArray.s"
-	@echo "... framework/shader/renderer/src/VertexBuffer.o"
-	@echo "... framework/shader/renderer/src/VertexBuffer.i"
-	@echo "... framework/shader/renderer/src/VertexBuffer.s"
-	@echo "... framework/shader/renderer/src/VertexBufferElement.o"
-	@echo "... framework/shader/renderer/src/VertexBufferElement.i"
-	@echo "... framework/shader/renderer/src/VertexBufferElement.s"
-	@echo "... framework/shader/renderer/src/VertexBufferLayout.o"
-	@echo "... framework/shader/renderer/src/VertexBufferLayout.i"
-	@echo "... framework/shader/renderer/src/VertexBufferLayout.s"
-	@echo "... framework/shader/src/Shader.o"
-	@echo "... framework/shader/src/Shader.i"
-	@echo "... framework/shader/src/Shader.s"
-	@echo "... framework/time/src/Time.o"
-	@echo "... framework/time/src/Time.i"
-	@echo "... framework/time/src/Time.s"
-	@echo "... framework/transform/src/Transform.o"
-	@echo "... framework/transform/src/Transform.i"
-	@echo "... framework/transform/src/Transform.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... stb_image"
+	@echo "... games/Snake/Application.o"
+	@echo "... games/Snake/Application.i"
+	@echo "... games/Snake/Application.s"
+	@echo "... games/Snake/GridMap.o"
+	@echo "... games/Snake/GridMap.i"
+	@echo "... games/Snake/GridMap.s"
+	@echo "... games/Snake/GridRenderer.o"
+	@echo "... games/Snake/GridRenderer.i"
+	@echo "... games/Snake/GridRenderer.s"
+	@echo "... games/Snake/main.o"
+	@echo "... games/Snake/main.i"
+	@echo "... games/Snake/main.s"
 	@echo "... vendor/glad/src/glad.o"
 	@echo "... vendor/glad/src/glad.i"
 	@echo "... vendor/glad/src/glad.s"
+	@echo "... vendor/stb_image/stb_image.o"
+	@echo "... vendor/stb_image/stb_image.i"
+	@echo "... vendor/stb_image/stb_image.s"
 .PHONY : help
 
 
@@ -487,6 +368,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

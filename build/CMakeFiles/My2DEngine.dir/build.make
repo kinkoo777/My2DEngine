@@ -226,6 +226,188 @@ CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/src/GameObject.cpp -o CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.s
 
+CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/src/Scene.cpp
+CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/src/Scene.cpp
+
+CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/src/Scene.cpp > CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/src/Scene.cpp -o CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/InputManager/src/InputManager.cpp
+CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/InputManager/src/InputManager.cpp
+
+CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/InputManager/src/InputManager.cpp > CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/InputManager/src/InputManager.cpp -o CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/renderer/src/OrthographicCamera.cpp
+CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/renderer/src/OrthographicCamera.cpp
+
+CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/renderer/src/OrthographicCamera.cpp > CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/renderer/src/OrthographicCamera.cpp -o CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/camera/src/CameraFollow.cpp
+CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/camera/src/CameraFollow.cpp
+
+CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/camera/src/CameraFollow.cpp > CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/camera/src/CameraFollow.cpp -o CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/math/src/Vector2.cpp
+CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/math/src/Vector2.cpp
+
+CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/math/src/Vector2.cpp > CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/math/src/Vector2.cpp -o CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/window/src/Window.cpp
+CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/window/src/Window.cpp
+
+CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/window/src/Window.cpp > CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/window/src/Window.cpp -o CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/events/src/Event.cpp
+CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/events/src/Event.cpp
+
+CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/events/src/Event.cpp > CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/events/src/Event.cpp -o CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/Application.cpp
+CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/Application.cpp
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/Application.cpp > CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/Application.cpp -o CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/src/Texture.cpp
+CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/src/Texture.cpp
+
+CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/src/Texture.cpp > CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/src/Texture.cpp -o CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/stb_image.cpp
+CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/stb_image.cpp
+
+CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/stb_image.cpp > CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/shader/texture/stb_image.cpp -o CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/geometry/src/Quad.cpp
+CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/geometry/src/Quad.cpp
+
+CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/geometry/src/Quad.cpp > CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/geometry/src/Quad.cpp -o CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridMap.cpp
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridMap.cpp
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridMap.cpp > CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridMap.cpp -o CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.s
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o: CMakeFiles/My2DEngine.dir/flags.make
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o: /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridRenderer.cpp
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o: CMakeFiles/My2DEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o -MF CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o.d -o CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o -c /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridRenderer.cpp
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridRenderer.cpp > CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.i
+
+CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vladimirgottlieb/Projects/My2DEngine/framework/core/application/src/GridRenderer.cpp -o CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.s
+
 # Object files for target My2DEngine
 My2DEngine_OBJECTS = \
 "CMakeFiles/My2DEngine.dir/src/main.cpp.o" \
@@ -238,7 +420,20 @@ My2DEngine_OBJECTS = \
 "CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBufferElement.cpp.o" \
 "CMakeFiles/My2DEngine.dir/framework/transform/src/Transform.cpp.o" \
 "CMakeFiles/My2DEngine.dir/framework/time/src/Time.cpp.o" \
-"CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.o"
+"CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o" \
+"CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o"
 
 # External object files for target My2DEngine
 My2DEngine_EXTERNAL_OBJECTS =
@@ -254,13 +449,26 @@ My2DEngine: CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/VertexBuffer
 My2DEngine: CMakeFiles/My2DEngine.dir/framework/transform/src/Transform.cpp.o
 My2DEngine: CMakeFiles/My2DEngine.dir/framework/time/src/Time.cpp.o
 My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/src/GameObject.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/src/Scene.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/InputManager/src/InputManager.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/shader/renderer/src/OrthographicCamera.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/camera/src/CameraFollow.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/math/src/Vector2.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/window/src/Window.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/events/src/Event.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/application/src/Application.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/shader/texture/src/Texture.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/shader/texture/stb_image.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/geometry/src/Quad.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/application/src/GridMap.cpp.o
+My2DEngine: CMakeFiles/My2DEngine.dir/framework/core/application/src/GridRenderer.cpp.o
 My2DEngine: CMakeFiles/My2DEngine.dir/build.make
 My2DEngine: libglad.a
 My2DEngine: /opt/homebrew/lib/libglfw.3.5.dylib
 My2DEngine: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 My2DEngine: /opt/homebrew/lib/libglm.dylib
 My2DEngine: CMakeFiles/My2DEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable My2DEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vladimirgottlieb/Projects/My2DEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable My2DEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/My2DEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

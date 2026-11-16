@@ -986,4 +986,5 @@ CMakeFiles/My2DEngine.dir/framework/transform/src/Transform.cpp.o: \
   /opt/homebrew/include/glm/gtc/matrix_transform.inl \
   /opt/homebrew/include/glm/gtc/../geometric.hpp \
   /opt/homebrew/include/glm/gtc/../trigonometric.hpp \
-  /opt/homebrew/include/glm/gtc/../matrix.hpp
+  /opt/homebrew/include/glm/gtc/../matrix.hpp \
+  /Users/vladimirgottlieb/Projects/My2DEngine/framework/transform/src/../../core/math/Vector2.h
