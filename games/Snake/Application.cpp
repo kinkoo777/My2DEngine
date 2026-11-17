@@ -51,8 +51,17 @@ Application::Application()
     AssetManger::Load<Texture>("snake", "assets/Snake.png");
     AssetManger::Load<Texture>("apple", "assets/apple.png");
     AssetManger::Load<Texture>("tail", "assets/tail.png");
-    
 
+
+    auto quad = std::make_shared<Quad>();
+
+    auto snake = std::make_unique<GameObject>(quad, AssetManger::Get<Texture>("snake"));
+    
+    m_Scene.AddGameObject("snake", std::move(snake));
+
+
+    m_Scene.GetGameObject("snake").GetTransform().SetPosition(640.0f, 340.0f);
+    // m_Scene.GetGameObject("snake").GetTransform().SetScale(50.0f, 50.0f);
     // Assign textures
     m_GridRenderer.SetTexture(
         TileType::Player, AssetManger::Get<Texture>("snake"));
@@ -251,13 +260,16 @@ void Application::Run()
         // Render
         m_Renderer.Clear();
 
+        m_Scene.Render(m_Renderer, m_Shader, m_Camera);
+        /*
         m_GridRenderer.Render(
             m_GridMap,
             m_Renderer,
             m_Shader,
             m_Camera
         );
-
+        */
+        
         m_Window.SwapBuffers();
     }
 }

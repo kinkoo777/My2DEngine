@@ -6,10 +6,10 @@
 
 GameObject::GameObject(
     std::shared_ptr<Geometry> geometry,
-    const std::string& texturePath
+    std::shared_ptr<Texture> texture
 )
     : m_Geometry(std::move(geometry)),
-      m_Texture(texturePath)
+      m_Texture(std::move(texture))
 {
     if (!m_Geometry)
     {
@@ -17,6 +17,17 @@ GameObject::GameObject(
             "GameObject requires geometry"
         );
     }
+}
+
+GameObject::GameObject(
+    std::shared_ptr<Geometry> geometry,
+    const std::string& texturePath
+)
+    : GameObject(
+          std::move(geometry),
+          texturePath.empty() ? nullptr : std::make_shared<Texture>(texturePath)
+      )
+{
 }
 
 Transform& GameObject::GetTransform()
@@ -36,7 +47,7 @@ const Geometry& GameObject::GetGeometry() const
 
 const Texture& GameObject::GetTexture() const
 {
-    return m_Texture;
+    return *m_Texture;
 }
 
 void GameObject::SetColor(float r, float g, float b)
@@ -51,5 +62,15 @@ const glm::vec3& GameObject::GetColor() const
 
 bool GameObject::HasTexture() const
 {
-    return m_Texture.IsLoaded();
+    return m_Texture && m_Texture->IsLoaded();
+}
+
+const std::string GameObject::GetSceneName()
+{
+    return m_SceneName;
+}
+
+void GameObject::SetSceneName(const std::string& name) 
+{
+    m_SceneName = name;
 }

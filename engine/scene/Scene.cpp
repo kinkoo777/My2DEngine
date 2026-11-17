@@ -5,10 +5,13 @@ Scene::Scene()
 {
 }
 
-void Scene::AddGameObject(std::unique_ptr<GameObject> gameObject)
+void Scene::AddGameObject(const std::string& name,std::unique_ptr<GameObject> gameObject)
 {
     if (gameObject)
+    {
+        gameObject->SetSceneName(name);
         m_GameObjects.push_back(std::move(gameObject));
+    }
 }
 
 void Scene::Render(
@@ -26,8 +29,16 @@ void Scene::Render(
     }
 }
 
-GameObject& Scene::GetGameObject(size_t index)
+GameObject& Scene::GetGameObject(const std::string& name)
 {
-    return *m_GameObjects.at(index);
+    for (auto& obj : m_GameObjects)
+    {
+        if (name == obj->GetSceneName())
+        {
+            return *obj;
+        }
+    }
+
+    throw std::runtime_error("GameObject with name: " + name + "was not found!");
 }
 

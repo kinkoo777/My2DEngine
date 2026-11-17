@@ -14,7 +14,12 @@ class GameObject
 public:
     GameObject(
         std::shared_ptr<Geometry> geometry,
-        const std::string& texturePath = ""
+        std::shared_ptr<Texture> texture = nullptr
+    );
+
+    GameObject(
+        std::shared_ptr<Geometry> geometry,
+        const std::string& texturePath
     );
 
     GameObject(const GameObject&) = delete;
@@ -35,12 +40,15 @@ public:
 
     bool HasTexture() const;
 
+    const std::string GetSceneName();
+    void SetSceneName(const std::string& name);
+
 private:
     Transform m_Transform;
 
     std::shared_ptr<Geometry> m_Geometry;
 
-    Texture m_Texture;
-
+    std::shared_ptr<Texture> m_Texture;
+    std::string m_SceneName;
     glm::vec3 m_Color = glm::vec3(1.0f);
 };
