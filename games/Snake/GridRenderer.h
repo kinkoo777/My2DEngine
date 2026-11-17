@@ -4,7 +4,7 @@
 
 #include "renderer/Renderer.h"
 #include "renderer/Shader.h"
-#include "renderer/Texture.h"
+#include "assetmanager/Assets.h"
 
 #include <memory>
 #include <unordered_map>

@@ -13,7 +13,7 @@ target_include_directories(engine PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
 target_link_libraries(engine PUBLIC
     glad
     stb_image
-    glfw
+    ${MY2DENGINE_GLFW_TARGET}
     OpenGL::GL
     glm::glm
 )

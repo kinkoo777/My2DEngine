@@ -6,7 +6,8 @@
 
 #include "scene/Transform.h"
 #include "geometry/Geometry.h"
-#include "renderer/Texture.h"
+#include "assetmanager/Assets.h"
+
 
 class GameObject
 {

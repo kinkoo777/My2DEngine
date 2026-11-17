@@ -28,7 +28,9 @@ Window::Window(unsigned int width, unsigned int height, const char *title)
 
     // Core Profile
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+#if defined(__APPLE__)
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+#endif
 
     // Create window
     m_Window = glfwCreateWindow(
@@ -131,8 +133,6 @@ Window::Window(unsigned int width, unsigned int height, const char *title)
             instance->m_Width = static_cast<unsigned int>(width);
             instance->m_Height = static_cast<unsigned int>(height);
 
-            glViewport(0, 0, width, height);
-
             if (instance->m_EventCallback)
             {
                 WindowResizeEvent event(
@@ -141,6 +141,13 @@ Window::Window(unsigned int width, unsigned int height, const char *title)
 
                 instance->m_EventCallback(event);
             }
+        });
+
+    glfwSetFramebufferSizeCallback(
+        m_Window,
+        [](GLFWwindow *, int width, int height)
+        {
+            glViewport(0, 0, width, height);
         });
 }
 

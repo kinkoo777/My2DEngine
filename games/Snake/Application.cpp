@@ -35,6 +35,8 @@ Application::Application()
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     // Load textures
+
+    /*
     auto playerTexture =
         std::make_shared<Texture>("assets/Snake.png");
 
@@ -43,16 +45,23 @@ Application::Application()
 
     auto bodyTexture =
         std::make_shared<Texture>("assets/tail.png");
+    */
+
+
+    AssetManger::Load<Texture>("snake", "assets/Snake.png");
+    AssetManger::Load<Texture>("apple", "assets/apple.png");
+    AssetManger::Load<Texture>("tail", "assets/tail.png");
+    
 
     // Assign textures
     m_GridRenderer.SetTexture(
-        TileType::Player, playerTexture);
+        TileType::Player, AssetManger::Get<Texture>("snake"));
 
     m_GridRenderer.SetTexture(
-        TileType::Apple, appleTexture);
+        TileType::Apple, AssetManger::Get<Texture>("apple"));
 
     m_GridRenderer.SetTexture(
-        TileType::SnakeBody, bodyTexture);
+        TileType::SnakeBody, AssetManger::Get<Texture>("tail"));
 
     // Initial apples
     apples.push_back({10, 8});

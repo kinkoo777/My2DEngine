@@ -29,6 +29,19 @@ cmake --build build --target run_Snake      # build + run
 The executable ends up in `build/bin/<Game>/` with its `assets/` next to it.
 To start it by hand: `cd build/bin/Snake && ./Snake`.
 
+## Windows
+
+Install Visual Studio 2022 with the **Desktop development with C++** workload
+and [vcpkg](https://github.com/microsoft/vcpkg). Set `VCPKG_ROOT` to the vcpkg
+directory, then configure and build from a Developer PowerShell:
+
+```powershell
+cmake --preset windows-vcpkg
+cmake --build --preset windows-debug --target run_Snake
+```
+
+The Windows executable is written to `build/windows/bin/Snake/Debug/`.
+
 ## New game
 
 ```sh

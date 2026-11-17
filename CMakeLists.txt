@@ -5,9 +5,17 @@ project(My2DEngine LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(glfw3 REQUIRED)
+find_package(glfw3 CONFIG REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(glm CONFIG REQUIRED)
+
+if(TARGET glfw)
+    set(MY2DENGINE_GLFW_TARGET glfw)
+elseif(TARGET glfw3::glfw)
+    set(MY2DENGINE_GLFW_TARGET glfw3::glfw)
+else()
+    message(FATAL_ERROR "The glfw3 package did not provide a supported CMake target.")
+endif()
 
 # ---------------------------------------------------------------------------
 # Third-party code (vendor/)
@@ -17,6 +25,9 @@ target_include_directories(glad PUBLIC vendor/glad/include)
 
 add_library(stb_image STATIC vendor/stb_image/stb_image.cpp)
 target_include_directories(stb_image PUBLIC vendor)   # -> #include "stb_image/stb_image.h"
+if(WIN32)
+    target_compile_definitions(stb_image PRIVATE STBI_WINDOWS_UTF8)
+endif()
 
 # ---------------------------------------------------------------------------
 # The engine (engine/)  ->  static library every game links against

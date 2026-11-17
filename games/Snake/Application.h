@@ -10,6 +10,8 @@
 #include "renderer/Shader.h"
 #include "renderer/Renderer.h"
 #include "renderer/OrthographicCamera.h"
+#include "assetmanager/AssetManager.h"
+#include "assetmanager/Assets.h"
 
 #include "GridMap.h"
 #include "GridRenderer.h"
