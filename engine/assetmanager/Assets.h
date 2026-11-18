@@ -7,7 +7,7 @@
 
 class Texture
 {
-public:
+public: 
     Texture() = default;
 
     explicit Texture(const std::string &filepath)
@@ -115,6 +115,7 @@ public:
 
     void Unbind() const
     {
+  
         glBindTexture(GL_TEXTURE_2D, 0);
     }
 
